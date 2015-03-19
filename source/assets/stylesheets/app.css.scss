@@ -19,7 +19,13 @@
 // ---------------------------------------------------------
 
 @import "foundation.scss";
+
+// ---------------------------------------------------------
+// Set the path and import the Foundation icon fonts
+// ---------------------------------------------------------
+$fi-path: "../../bower_components/foundation-icon-fonts";
 @import "foundation-icons";
+
 
 // ---------------------------------------------------------
 // ... or get only the needed foundation components ...
@@ -38,6 +44,6 @@
 @import "base/typography";
 @import "base/elements";
 
-// @import "layouts/";
+@import "layout/layout";
 // @import "modules/";
 // @import "states/";
