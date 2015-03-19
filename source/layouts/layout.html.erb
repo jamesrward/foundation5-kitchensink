@@ -7,11 +7,31 @@
       <%= @title || "Middleman - Foundation 5" %>
     </title>
     <%= stylesheet_link_tag "app" %>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <%= javascript_include_tag "before" %>
   </head>
   <body class="<%= page_classes %>">
-    <%= yield %>
-    <%= partial "footer"  %>
+    <div class="layout--header">
+      <div class="layout--header-inner">
+          <%= partial "topnav"  %>
+      </div>
+    </div>
+
+    <div class="layout--content">
+      <div class="layout--content-left">
+        <%= partial "sidenav" %>
+      </div>
+      <div class="layout--content-right">
+        <%= yield %>
+      </div>
+    </div>
+
+    <div class="layout--footer">
+      <div class="layout--footer-content">
+        <%= partial "footer"  %>
+      </div>
+    </div>
+
     <%= javascript_include_tag  "all" %>
   </body>
 </html>

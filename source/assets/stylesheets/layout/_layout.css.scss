@@ -14,7 +14,7 @@
   @include grid-row;
   
   .layout--header-inner{
-    @include grid-column($columns:6, $center:true);
+    @include grid-column($columns:12, $center:true);
   }
 }
 
@@ -22,11 +22,11 @@
   @include grid-row;
 
   .layout--content-left{
-    @include grid-column($columns:8);
+    @include grid-column($columns:3);
   }
 
   .layout--content-right{
-    @include grid-column($columns:4);
+    @include grid-column($columns:9);
   }
 }
 
@@ -34,6 +34,6 @@
   @include grid-row;
   
   .layout--footer-inner{
-    @include grid-column($columns:3, $center:true);
+    @include grid-column($columns:12, $center:true);
   }
 }
