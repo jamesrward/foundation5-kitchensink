@@ -1,12 +1,12 @@
-# Middleman Template: foundation5-icons #
+# Middleman Template: foundation5-kitchensink #
 
-**foundation5-icons** is a [Middleman](http://middlemanapp.com/) project template for the [ZURB Foundation 5](http://foundation.zurb.com/) Framework. One objective is to have a basic project skeleton, that is structured similar to a Ruby on Rails project. This makes it easy to switch between Middleman and Rails projects. 
+**foundation5-kitchensink** is a [Middleman](http://middlemanapp.com/) project template for the [ZURB Foundation 5](http://foundation.zurb.com/) Framework. The objective is to make a project that can quickly showcase the complet Foundation 5 stack including the Foundation Icon Fonts.
 
 This project comes with some example files which uses:
 
 1. [SASS](http://sass-lang.com/)
 1. [Coffee Script](http://coffeescript.org/)
-1. A modular structure for the css/scss files
+1. SMACSS folder structure
 
 ## Installation ##
 
