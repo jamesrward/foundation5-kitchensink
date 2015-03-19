@@ -1,6 +1,6 @@
 # Middleman Template: foundation5-kitchensink #
 
-**foundation5-kitchensink** is a [Middleman](http://middlemanapp.com/) project template for the [ZURB Foundation 5](http://foundation.zurb.com/) Framework. The objective is to make a project that can quickly showcase the complet Foundation 5 stack including the Foundation Icon Fonts.
+**foundation5-kitchensink** is a [Middleman](http://middlemanapp.com/) project template for the [ZURB Foundation 5](http://foundation.zurb.com/) Framework. The objective is to make a project that can quickly showcase the complete Foundation 5 stack including the Foundation Icon Fonts.
 
 This project comes with some example files which uses:
 
@@ -19,7 +19,7 @@ Make sure to have:
 
 Clone this repository to ~/.middleman
 
-1. `git clone git://github.com/jamesrward/foundation5-kitchensink.git ~/.middleman/foundation5-kitchensink`
+1. `git clone git://github.com/jamesrward/middleman-foundation5-kitchensink ~/.middleman/foundation5-kitchensink`
  
 Then create a new project using the `foundation5-kitchensink` template. 
 
