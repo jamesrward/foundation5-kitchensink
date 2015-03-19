@@ -19,11 +19,11 @@ Make sure to have:
 
 Clone this repository to ~/.middleman
 
-1. `git clone git://github.com/RalphAtHamburg/middleman-foundation5-basic.git ~/.middleman/foundation5-basic`
+1. `git clone git://github.com/jamesrward/foundation5-kitchensink.git ~/.middleman/foundation5-kitchensink`
  
-Then create a new project using the `foundation5-basic` template. 
+Then create a new project using the `foundation5-kitchensink` template. 
 
-1. `middleman init my_new_project --template=foundation5-basic`
+1. `middleman init my_new_project --template=foundation5-kitchensink`
 1. `cd my_new_project`
 
 Starting with Foundation 5, Zurb uses [bower](http://bower.io/) for the package management. The `bower install` command will create a folder `bower_components` with all needed files inside the source folder of Middleman. To prevent your git repository being polluted by changes to third party components, this directory is not tracked by git.  
