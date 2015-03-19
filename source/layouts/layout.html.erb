@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>
+      <%= @title || "Middleman - Foundation 5" %>
+    </title>
+    <%= stylesheet_link_tag "app" %>
+    <%= javascript_include_tag "before" %>
+  </head>
+  <body class="<%= page_classes %>">
+    <%= yield %>
+    <%= partial "footer"  %>
+    <%= javascript_include_tag  "all" %>
+  </body>
+</html>

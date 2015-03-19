@@ -1,0 +1,43 @@
+// ---------------------------------------------------------
+// Root file for the stylesheets. This is the only file
+// that will be imported in the html header
+// ---------------------------------------------------------
+
+// ---------------------------------------------------------
+// Use normalize ...
+// ---------------------------------------------------------
+@import "normalize.scss";
+
+// ---------------------------------------------------------
+// Use this file to override specific Foundation defaults
+// ---------------------------------------------------------
+
+// @import "foundation_overrides";
+
+// ---------------------------------------------------------
+// Import the whole Foundation framework ...
+// ---------------------------------------------------------
+
+@import "foundation.scss";
+@import "foundation-icons";
+
+// ---------------------------------------------------------
+// ... or get only the needed foundation components ...
+// ---------------------------------------------------------
+
+// @import "foundation/components/grid";
+// @import "foundation/components/type";
+
+// ---------------------------------------------------------
+// SMACSS Imports. Use these files to override specific
+// Foundation defaults
+// ---------------------------------------------------------
+
+@import "base/colors";
+@import "base/mixins";
+@import "base/typography";
+@import "base/elements";
+
+// @import "layouts/";
+// @import "modules/";
+// @import "states/";
