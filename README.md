@@ -2,12 +2,6 @@
 
 **foundation5-kitchensink** is a [Middleman](http://middlemanapp.com/) project template for the [ZURB Foundation 5](http://foundation.zurb.com/) Framework. The objective is to make a project that can quickly showcase the complete Foundation 5 stack including the Foundation Icon Fonts.
 
-This project comes with some example files which uses:
-
-1. [SASS](http://sass-lang.com/)
-1. [Coffee Script](http://coffeescript.org/)
-1. SMACSS folder structure
-
 ## Installation ##
 
 Make sure to have:
